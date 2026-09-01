@@ -15,7 +15,7 @@ function login() {
         )
     ) {
         alert("Login realizado com sucesso!");
-        window.location.href = "file:///C:/Users/SENAI/Desktop/SolusGrafEpa/solusgrafepa.html";
+        window.location.href = "solusgrafepa.html";
     } else {
         alert("Email ou senha incorretos.");
     }
