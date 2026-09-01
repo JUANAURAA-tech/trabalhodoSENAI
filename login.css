@@ -1,0 +1,25 @@
+body{
+    font-family:Arial,sans-serif;
+    background:#b7b7bc;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.container{
+    width:500px;
+    background:rgb(243, 243, 243);
+    padding:30px;
+    margin-top:100px;
+    border-radius:30px;
+    box-shadow:5px 5px rgb(10, 10, 10);
+    
+}
+
+.table{
+    width:100%;
+    margin-top:20px;
+    text-align:center;
+    
+}
+
