@@ -15,7 +15,7 @@ function login() {
         )
     ) {
         alert("Login realizado com sucesso!");
-        window.location.href = "solusgrafepa.html";
+        window.location.href = "producao/solusgrafepa.html";
     } else {
         alert("Email ou senha incorretos.");
     }
