@@ -1,6 +1,4 @@
-function login(event) {
-    event.preventDefault();
-
+function login() {
     let email = document.getElementById('email').value;
     let senha = document.getElementById('senha').value;
 
@@ -17,7 +15,7 @@ function login(event) {
         )
     ) {
         alert("Login realizado com sucesso!");
-        window.location.href = "producao/solusgrafepa.html";
+        window.location.href = "solusgrafepa.html";
     } else {
         alert("Email ou senha incorretos.");
     }
