@@ -1,4 +1,6 @@
-function login() {
+function login(event) {
+    event.preventDefault();
+
     let email = document.getElementById('email').value;
     let senha = document.getElementById('senha').value;
 
